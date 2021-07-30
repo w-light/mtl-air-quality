@@ -1,0 +1,35 @@
+SUMMARY: Location of Reseau de Surveillance de la Qualite de l'Air (RSQA)
+
+SPATIAL DATA TYPE: Point
+
+SOURCE: City of Montreal, https://www.donneesquebec.ca/recherche/dataset/vmtl-rsqa-liste-des-stations
+
+DATE COLLECTED: --
+DATE PUBLISHED:October 6, 2013, last update March 02, 2021
+DATE CURATED: March 13, 2021
+CURATOR NAME: Vincenzo Corelli
+
+SPATIAL RESOLUTION:
+
+COORDINATE SYSTEM: NAD_1983_MTM_8 
+PROJECTION: Transverse_Mercator
+
+EXTENT: Urban agglomeration of Montreal
+
+USE LIMITATIONS: --
+
+FIELDS:
+
+	FID -- Field identifier
+	Shape -- spatial data type
+	numero_sta -- Station number
+	SNPA -- Station identifier
+	statut -- status
+	nom -- name of station
+	adresse -- address of station
+	arrondisse -- Montreal burough 
+	latitude -- latitude of station
+	longitude -- longitude of station
+	X -- x-coordinate
+	Y -- y-coordinate
+	

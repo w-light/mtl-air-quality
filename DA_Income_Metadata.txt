@@ -1,0 +1,46 @@
+Datafile Name: DA_Income 
+Summary: This map represents after-tax household income information for dissemination areas in the greater Montreal area. 
+
+General Information: 
+
+Spatial data type 	Polygon 
+Source 			Statistics Canada, Data Collected through CHASS
+Date collected 		2016
+Date published 		2016
+Date curated 		11/03/2021
+Curator name 		Christiana Guertin 
+Spatial Resolution 	Dissemination Area, Original Scale: Canada
+Coordinate system	NAD_1983_MTM_8
+Projection 		Transverse_Mercator
+Extent 			Greater Montréal
+Use limitations 	Subscribed to CHASS, access was grated through Concordia subscription. 
+
+Attribute fields: 
+	
+Column Name 	Description 
+
+FID		Field ID
+Shape		Spatial data type 													
+DAUID		Dissimination Area Identification Number (8 digitis)	Numbers
+CDUID		Census Division ID 
+CDNAME		Census Division name 	Characters
+OID_		Additional ID
+COL2		Percentages of Household with an after-tax income range in 2015 for private households  - Under $5,000
+COL3		Percentages of Household with an after-tax income range in 2015 for private households  - $5,000 to $9,999	
+COL4		Percentages of Household with an after-tax income range in 2015 for private households  - $10,000 to $14,999	
+COL5		Percentages of Household with an after-tax income range in 2015 for private households  - $15,000 to $19,999	
+COL6		Percentages of Household with an after-tax income range in 2015 for private households  - $20,000 to $24,999	
+COL7		Percentages of Household with an after-tax income range in 2015 for private households  - $25,000 to $29,999	
+COL8		Percentages of Household with an after-tax income range in 2015 for private households  - $30,000 to $34,999	
+COL9		Percentages of Household with an after-tax income range in 2015 for private households  - $35,000 to $39,999	
+COL10		Percentages of Household with an after-tax income range in 2015 for private households  - $40,000 to $44,999	
+COL11		Percentages of Household with an after-tax income range in 2015 for private households  - $45,000 to $49,999	
+COL12		Percentages of Household with an after-tax income range in 2015 for private households  - $50,000 to $59,999	
+COL13		Percentages of Household with an after-tax income range in 2015 for private households  - $60,000 to $69,999	
+COL14		Percentages of Household with an after-tax income range in 2015 for private households  - $70,000 to $79,999	
+COL15		Percentages of Household with an after-tax income range in 2015 for private households  - $80,000 to $89,999	
+COL16		Percentages of Household with an after-tax income range in 2015 for private households  - $90,000 to $99,999
+COL17		Percentages of Household with an after-tax income range in 2015 for private households  - $100,000 to $124,999
+COL18		Percentages of Household with an after-tax income range in 2015 for private households  - $125,000 to $149,999	
+COL19		Percentages of Household with an after-tax income range in 2015 for private households  - $150,000 and over	
+COL20		Median after-tax income of households in 2015 ($)								

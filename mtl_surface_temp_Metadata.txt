@@ -1,0 +1,28 @@
+SUMMARY: The map presents areas of heat and coolness on the island of Montreal and suburbs, on a 1-9 spectrum of cool to hot. Created by INSPQ and CERFO in 2012 as part of Government of Quebec's 2006-2012 Climate Change Action Plan. 
+
+SPATIAL DATA TYPE: area raster 
+
+SOURCE: Données Quebec, https://www.donneesquebec.ca/recherche/dataset/ilots-de-chaleur-fraicheur-urbains-et-temperature-de-surface/resource/6cff2279-6431-4b3d-aa1d-277f56a255a6
+
+DATE COLLECTED: 2012
+DATE PUBLISHED: December 18, 2015
+DATE CURATED: March 22, 2021
+CURATOR NAME: Whitney Light
+
+SPATIAL RESOLUTION: 20 metres 
+
+COORDINATE SYSTEM: NAD_1983_MTM_8
+PROJECTION: Transverse_Mercator
+
+EXTENT:	-785903.0000000000000000,128071.0000000000000000 : 302797.0000000000000000,700351.0000000000000000
+
+USE LIMITATIONS: CC-BY 4.0 This license allows the user to distribute, remix, arrange and adapt the work, even for commercial purposes, on the condition that the original creator is cited by name.
+
+FIELDS:
+
+	The map presents the area on a spectrum of 1-9.
+	1 and 2 -- coolest islands, usually wooded areas
+	3 and 4 -- less cool, generally more open vegetated areas
+	5,6,7 -- continuum of temperatures without specific qualifier
+	8 -- slightly cooler heat islands, often halfway to level 9 islands
+	9 -- hottest heat islands

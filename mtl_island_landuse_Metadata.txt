@@ -1,0 +1,49 @@
+SUMMARY: Land use classes on Montreal island, in 25 classes (e.g. residential, commercial,  park space, industrial, etc.).
+
+SPATIAL DATA TYPE: polygons 
+
+SOURCE: Communauté métropolitaine de Montréal, http://observatoire.cmm.qc.ca/observatoire-grand-montreal/produits-cartographiques/donnees-georeferencees/
+
+DATE COLLECTED: Ongoing since 2012
+DATE PUBLISHED: August 2020
+DATE CURATED: March 12, 2021
+CURATOR NAME: Whitney Light
+
+SPATIAL RESOLUTION:
+
+COORDINATE SYSTEM: NAD_1983_MTM_8
+PROJECTION: Transverse_Mercator 
+
+EXTENT: Montreal island
+
+USE LIMITATIONS:
+
+FIELDS:
+
+	ID -- unique identifier
+
+	CODEGEOG -- municipality 5-digit code
+
+	UTIL_SOL -- land use class, as follows:
+			100 -- residential
+			101 -- residential, single unit
+			102, 112 -- residential, condo 2-4 units
+			103, 113 -- residential, condo 5-24 units
+			104, 114 -- residential, condo 25 or more units
+			200 -- commercial
+			300 -- offices
+			400 -- industry
+			500 -- institutions
+			510 -- economic institution
+			520 -- non-economic institution
+			600 -- park or green space
+			700 -- public utility
+			710 -- railway
+			720 -- airport
+			725 -- parking
+			750, 760 -- street
+			800 -- agriculture
+			900 -- empty land
+			1000 -- waterbody
+			1100 -- golf
+

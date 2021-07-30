@@ -1,0 +1,43 @@
+SUMMARY: NPRI reporting facilities in the Montreal census metropolitan area. Includes total air emissions (in tonnes) of PM 2.5 reported for the year 2019. 
+
+SPATIAL DATA TYPE: point
+
+SOURCE: National Pollutant Release Inventory, https://open.canada.ca/data/en/dataset/1fb7d8d4-7713-4ec6-b957-4a882a84fed3
+
+DATE COLLECTED: 2019
+DATE PUBLISHED: March 12, 2021
+DATE CURATED: March 19, 2021
+CURATOR NAME: Whitney Light
+
+SPATIAL RESOLUTION: 
+
+COORDINATE SYSTEM: NAD_1983_MTM_8
+PROJECTION: Transverse_Mercator 
+
+EXTENT: Montreal census metropolitan area (CMA)
+
+USE LIMITATIONS: Open Government Licence - Canada, https://open.canada.ca/en/open-government-licence-canada
+
+FIELDS:
+
+	year -- reporting year
+	NPRI_id -- identifier
+	company -- company name
+	facility -- facility name
+	city -- facility location
+	CMA -- census metropolitan region
+	economic_r -- economic region
+	province -- province
+	postal_cod -- postal code
+	latitude -- latitude of facility
+	longitude -- longitude of facility
+	NAICS_code -- industry code
+	NAICS_sect -- industry sector name
+	substance -- chemical reported
+	units -- units of chemical reported
+	air_emissi -- stack air emissions
+	air_emis_1 -- storage and handling air emissions
+	air_emis_2 -- fugitive air emissions
+	air_emis_3 -- spill air emissions
+	air_emis_4 -- other air emissions
+	air_emis_5 -- total air emissions

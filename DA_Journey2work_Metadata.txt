@@ -1,0 +1,70 @@
+Datafile Name : DA_Journey2work
+Summary: This map represents information extracted from Canada's long-form census in 2016. It includes main mode of commuting type and commuting duration for dissemination areas in the greater Montreal area. 
+
+General Information : 
+Spatial data type 	Polygon 
+Source 			Statistics Canada, Data Collected through CHASS : http://datacentre.chass.utoronto.ca.lib-ezproxy.concordia.ca/cgi-bin/census/2016/displayCensus.cgi?year=2016&geo=da
+Date collected 		2016
+Date published 		2016
+Date curated 		13/03/2021
+Curator name 		Margo Burgess - Pollet 
+Spatial Resolution 	Dissemination Area, Original Scale: Canada
+Coordinate system	NAD_1983_MTM_8
+Projection 		Transverse_Mercator
+Extent 			Greater Montréal
+Use limitations 	Subscribed to CHASS, access was grated through Concordia subscription.
+
+
+
+Column Name - Description
+ 
+FID - Field ID
+Shape - Spatial data type 
+PRUID - Province ID
+PRNAME - Province Name	
+CDUID - Census Division ID 
+CDNAME - Census Division name
+CDTYPE - Census Division Type  	
+CCSUID - Uniquely identifies a census consolidated subdivision (composed of the 2-digit province or territory unique identifier followed by the 2-digit census division code and the 3-digit census consolidated subdivision code).
+CCSNAME	- Census consolidated subdivision name
+CCSDUID - Uniquely identifies a census consolidated subdivision (composed of the 2-digit province or territory unique identifier followed by the 2-digit census division code and the 3-digit census consolidated subdivision code).
+CCSNAME	- Census consolidated subdivision name.
+CSDUID- Uniquely identifies a census subdivision (composed of the 2-digit province or territory unique identifier followed by the 2-digit census division code and the 3-digit census subdivision code).						
+CSDNAME - Census subdivision name.
+CSDTYPE - Census subdivisions are classified according to designations adopted by provincial or territorial or federal authorities.
+ERUID - Uniquely identifies an economic region (composed of the 2-digit province or territory unique identifier followed by the 2-digit economic region code).
+ERNAME - Economic region name.
+SACCODE - The 3-digit Statistical Area Classification code.
+SACTYPE - The Statistical Area Classification groups census subdivisions according to whether they are a component of a census metropolitan area, a census agglomeration, a census metropolitan influenced zone or the territories.
+CMAUID - Uniquely identifies a census metropolitan area and census agglomeration
+CMAPUID - 	Uniquely identifies the provincial or territorial part of a census metropolitan area or census agglomeration (composed of the 2-digit province or territory unique identifier followed by the 3-digit census metropolitan area or census agglomeration unique identifier)
+CMANAME - Census metropolitan area or census agglomeration name.
+CMATYPE - A one-character field identifying whether the unit is a census metropolitan area, a tracted census agglomeration or a non-tracted census agglomeration.
+CTUID - Uniquely identifies a census tract within a census metropolitan area and census agglomeration (composed of the 3-digit census metropolitan area and census agglomeration unique identifier followed by the 7.2-character census tract name)
+CTNAME - Every census tract is assigned a 7.2-character numeric 'name' (including leading zeros, a decimal point and trailing zeros).
+ADAUID - Uniquely identifies an aggregate dissemination area (composed of the 2-digit province/territory unique indentifier followed by the 2-digit census division code and the 4-digit aggregate dissemination area code).
+COL0 - GEO UID
+COL1 - Province code
+COL2 - Province name
+COL3 - CD code
+COL4 - CD name
+COL5 - DA name
+COL6 - Journey to Work - Total Sex / Total - Commuting destination for the employed labour force aged 15 years and over in private households with a usual place of work - 25% sample data
+COL7 - Journey to Work - Total Sex / Total - Main mode of commuting for the employed labour force aged 15 years and over in private households with a usual place of work or no fixed workplace address - 25% sample data
+COL8 - Journey to Work - Total Sex / Total - Commuting destination for the employed labour force aged 15 years and over in private households with a usual place of work - 25% sample data / Commute within census subdivision (CSD) of residence
+COL9 - Journey to Work - Total Sex / Total - Commuting destination for the employed labour force aged 15 years and over in private households with a usual place of work - 25% sample data / Commute to a different census subdivision (CSD) within census division (CD) of residence
+COL10 - Journey to Work - Total Sex / Total - Commuting destination for the employed labour force aged 15 years and over in private households with a usual place of work - 25% sample data / Commute to a different census subdivision (CSD) and census division (CD) within province or territory of residence
+COL11 - Journey to Work - Total Sex / Total - Commuting destination for the employed labour force aged 15 years and over in private households with a usual place of work - 25% sample data / Commute to a different province or territory
+COL12 - Journey to Work - Total Sex / Total - Main mode of commuting for the employed labour force aged 15 years and over in private households with a usual place of work or no fixed workplace address - 25% sample data / Car, truck, van - as a driver
+COL13 - Journey to Work - Total Sex / Total - Main mode of commuting for the employed labour force aged 15 years and over in private households with a usual place of work or no fixed workplace address - 25% sample data / Car, truck, van - as a passenger
+COL14 - Journey to Work - Total Sex / Total - Main mode of commuting for the employed labour force aged 15 years and over in private households with a usual place of work or no fixed workplace address - 25% sample data / Public transit
+COL15 - Journey to Work - Total Sex / Total - Main mode of commuting for the employed labour force aged 15 years and over in private households with a usual place of work or no fixed workplace address - 25% sample data / Walked
+COL16 - Journey to Work - Total Sex / Total - Main mode of commuting for the employed labour force aged 15 years and over in private households with a usual place of work or no fixed workplace address - 25% sample data / Bicycle
+COL17 - Journey to Work - Total Sex / Total - Main mode of commuting for the employed labour force aged 15 years and over in private households with a usual place of work or no fixed workplace address - 25% sample data / Other method
+COL18 - Journey to Work - Total Sex / Total - Commuting duration for the employed labour force aged 15 years and over in private households with a usual place of work or no fixed workplace address - 25% sample data
+COL19 - Journey to Work - Total Sex / Total - Commuting duration for the employed labour force aged 15 years and over in private households with a usual place of work or no fixed workplace address - 25% sample data / Less than 15 minutes
+COL20 - Journey to Work - Total Sex / Total - Commuting duration for the employed labour force aged 15 years and over in private households with a usual place of work or no fixed workplace address - 25% sample data / 15 to 29 minutes
+COL21 - Journey to Work - Total Sex / Total - Commuting duration for the employed labour force aged 15 years and over in private households with a usual place of work or no fixed workplace address - 25% sample data / 30 to 44 minutes
+COL22 - Journey to Work - Total Sex / Total - Commuting duration for the employed labour force aged 15 years and over in private households with a usual place of work or no fixed workplace address - 25% sample data / 45 to 59 minutes
+COL23 - Journey to Work - Total Sex / Total - Commuting duration for the employed labour force aged 15 years and over in private households with a usual place of work or no fixed workplace address - 25% sample data / 60 minutes and over
+COL24 - Journey to Work - Total Sex / Total - Time leaving for work for the employed labour force aged 15 years and over in private households with a usual place of work or no fixed workplace address - 25% sample data

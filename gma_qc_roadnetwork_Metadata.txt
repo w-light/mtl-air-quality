@@ -1,0 +1,37 @@
+SUMMARY: Provincial roads and highways of Quebec including description of road type for each segment. 
+
+SPATIAL DATA TYPE: line 
+
+SOURCE: Données Quebec, https://www.donneesquebec.ca/recherche/dataset/reseau-routier-rtss
+
+DATE COLLECTED: ongoing
+DATE PUBLISHED: March 15, 2021
+DATE CURATED: March 22, 2021
+CURATOR NAME: Whitney Light
+
+SPATIAL RESOLUTION: 
+
+COORDINATE SYSTEM: NAD_1983_MTM_8
+PROJECTION: Transverse_Mercator
+
+EXTENT: -79.5177130902138884,44.9921057384621150 : -57.1047400047407194,62.4208487869503656
+
+USE LIMITATIONS: Creative Commons 4.0, https://www.donneesquebec.ca/licence/
+
+FIELDS:
+
+	ide_infrm_ -- sub-route information identifier
+	ide_sous_r -- sub-route identifier
+	num_rts -- 14-character code RTSS (route, troncon, section, sub-route)
+	num_route -- route (5 characters)
+	num_tronc -- tronçon (2 characters)
+	num_sectn -- section (3 characters)
+	cod_sous_r -- sub-route (1 character)
+	seq_sous_r -- sequence of the sub-route (1 character)
+	cod_sous_c -- code of sub-code of the sub-route (1 character)
+	cod_cote_c -- road side of the sub-route
+	chang_debu -- chaining start
+	val_longr -- length
+	sta_sous_r -- status
+	cod_clasf_ -- functional class code (00, 10, 20, 30, 40, 51, 52, 53, 60, 70)
+	des_clasf_ -- description of the functional class (resource access, highway, collector, local 1, local 2, local 3, national, regional, resources and isolated localities, no class)

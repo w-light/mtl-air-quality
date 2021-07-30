@@ -1,0 +1,53 @@
+SUMMARY: A network of straight-line segments representing the Montreal road network, divided into 10 classes (e.g. motorways, main arteries, local streets). Lines  were digitized from the centre of roads.  
+
+SPATIAL DATA TYPE: line
+
+SOURCE: City of Montreal, https://donnees.montreal.ca/ville-de-montreal/geobase
+
+DATE COLLECTED: --
+DATE PUBLISHED:October 6, 2013, last update March 11, 2021
+DATE CURATED: March 11, 2021
+CURATOR NAME: Whitney Light
+SPATIAL RESOLUTION:
+
+COORDINATE SYSTEM: NAD_1983_MTM_8
+PROJECTION: Transverse_Mercator
+
+EXTENT: Urban agglomeration of Montreal
+
+USE LIMITATIONS: --
+
+FIELDS:
+
+Id_trc -- Unique numeric key with values between 1 and 499,000 for Longueil; between 500,000 and 999,999 for Laval; and between 1,000,000 and 9,999,999 for Montreal.
+
+Type_voie (Typ_voie) -- Generic of the official toponymy, without abbreviation
+
+Lien_voie (Lie_voie) -- Particle of the official toponymy, without abbreviation
+
+Name_voie (Name_voie) -- Specific to the official toponymy, without abbreviation
+
+Direction_voie (Dir_voie) -- Orientation of the official toponymy, without abbreviation
+
+Start_left (Deb_gch) -- Real civic number located at the start and to the left of the section
+
+Fin_gauche (Fin_gch) -- Real civic number located at the end and to the left of the section
+
+Start_right (Deb_drt) -- Real civic number located at the start and to the right of the section
+
+Fin_droite (Fin_drt) -- Real civic number located at the end and to the right of the section
+
+Limite_gauche (Lim_gch) -- Administrative limit (municipality) located to the left of the section
+
+Limite_droite (Lim_drt) -- Administrative limit (municipality) located to the right of the section
+
+Arrondissement_gauche (ARR_GCH) -- Administrative limit of the borough located to the left of the section (N / A if not applicable because outside the City of Montreal - For the cities of Longueuil and Montreal, these are the boroughs, for the city of Laval these are the former towns)
+
+Arrondissement_droite (ARR_DRT) -- Administrative boundary of the borough located to the right of the section (N / A if not applicable because outside the City of Montreal)
+
+Class (CLASS) -- Class of the road:  9 = projected street; 8 = motorways; 7 = main arteries; 6 = secondary arteries; 5 = collectors; 4 = private; 3 = quay; 2 = business places; 1 = certain pedestrian routes; 0 = local streets.
+	
+Direction_circulation (SENS_CIR) -- The direction of circulation is defined according to the direction of digitization as follows:
+        1 -> one way in the direction of digitization
+        -1 -> one way in the opposite direction of digitization
+        0 -> two way 
